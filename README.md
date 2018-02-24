@@ -6,8 +6,10 @@
   - Adding products to the shopping cart
   - Increasing the quantity of products 
   - Make payment throug Pay-pal payment gateway
-  
-#### I have used .dust for templating, along side the node-server.
+
+```
+  I have used .dust for templating, along side the node-server.
+```
   
 #### This is the front page
 ![screenshot 51](https://user-images.githubusercontent.com/31181068/36627237-d314bec8-1965-11e8-891f-34d5ce3318af.png)
