@@ -1,0 +1,30 @@
+{>"layouts/master" /}
+
+{<body}
+<div class="row">
+	<div class="large-4 columns book">
+        <img src="{book.cover}" style="width:200px", "height:400px">
+    </div>
+    <div class="large-8 columns book">
+        <h2>{book.title}</h2>
+        <ul class="bookInfo">
+            <li>Category: {book.category}</li>
+            <li>Author: {book.author}</li>
+            <li>Publisher: {book.publisher}</li>
+        </ul>
+        <br>
+        <div class="price"><span>${book.price}</span></div>
+        <br>
+        <p>
+        {book.description}
+        </p>
+
+         <form method="post" action="/cart/{book._id}">
+            <input type="submit" class="button success" value="Add To Cart" />
+            <input type="hidden" value="{_csrf}" name="_csrf" />
+         </form>
+    </div>
+
+</div>
+{/body}
+
