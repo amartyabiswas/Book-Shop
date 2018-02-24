@@ -8,7 +8,7 @@
   - Make payment throug Pay-pal payment gateway
 
 ```
-  I have used .dust for templating, along side the node-server.
+  I have used .dust for templating, along side the node-server. Mongodb is used for storing the book's contents.
 ```
   
 #### This is the front page
